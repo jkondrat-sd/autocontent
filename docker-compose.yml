@@ -62,7 +62,7 @@ services:
       - autocontent-network
 
   kafka:
-    image: bitnami/kafka:3.7
+    image: soldevelo/kafka:3.7
     container_name: autocontent-kafka
     environment:
       - KAFKA_CFG_NODE_ID=0
